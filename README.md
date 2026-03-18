@@ -6,16 +6,16 @@ The content is organized in chapters, similar to a small course structure.
 
 ## 01_Basics
 
-01_Introduction
-02_Variables_and_Data_Types
-03_Operators
-04_Conditional_Statements
-05_Loops
-06_Functions
-07_Data_Structures
-08_Libraries_and_Modules
-09_File_Handling
-10_Small_Programs
+01_Introduction  
+02_Variables_and_Data_Types  
+03_Operators  
+04_Conditional_Statements  
+05_Loops  
+06_Functions  
+07_Data_Structures  
+08_Libraries_and_Modules  
+09_File_Handling  
+10_Small_Programs  
 
 
 ## Purpose
