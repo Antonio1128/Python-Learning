@@ -22,4 +22,4 @@ The content is organized in chapters, similar to a small course structure.
 
 This repository was created as part of my programming practice and university learning.
 It contains small examples and exercises that demonstrate basic Python concepts.
-More complex and challening exercises and functions will be added over time.
+More complex and challenging exercises and functions will be added over time.
