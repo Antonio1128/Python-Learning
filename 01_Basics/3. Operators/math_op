@@ -1,0 +1,10 @@
+a = 10
+b = 3
+
+print("sum:", a + b)
+print("difference:", a - b)
+print("product:", a * b)
+print("quotient:", a / b)
+print("integer division:", a // b)
+print("remainder:", a % b)
+print("power:", a ** b)

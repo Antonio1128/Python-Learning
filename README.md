@@ -4,27 +4,22 @@
 This repository contains my notes and exercises while learning Python.
 The content is organized in chapters, similar to a small course structure.
 
-## Chapters
+## 01_Basics
 
-1. Introduction
-2. Variables and Data Types
-3. Operators
-4. Conditional Statements
-5. Loops
-6. Functions
-7. Data Structures
-8. Libraries and Modules
-9. File Handling
-10. Small Programs
+01_Introduction
+02_Variables_and_Data_Types
+03_Operators
+04_Conditional_Statements
+05_Loops
+06_Functions
+07_Data_Structures
+08_Libraries_and_Modules
+09_File_Handling
+10_Small_Programs
 
-## Small Programs
-
-Some example exercises included in this repository:
-
-* Prime number checker
-* (more programs will be added)
 
 ## Purpose
 
 This repository was created as part of my programming practice and university learning.
 It contains small examples and exercises that demonstrate basic Python concepts.
+More complex and challening exercises and functions will be added over time.

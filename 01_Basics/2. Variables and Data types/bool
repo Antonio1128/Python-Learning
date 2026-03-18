@@ -1,0 +1,10 @@
+# boolean logic
+age=int(input("Age: "))
+is_adult = age >= 18
+print("Is adult:", is_adult)
+
+is_student = input("Are you a student? (yes/no): ").lower() == "yes"
+print("Is student:", is_student)
+
+is_eligible_for_discount = is_adult and is_student
+print("Eligible for discount:", is_eligible_for_discount)   
