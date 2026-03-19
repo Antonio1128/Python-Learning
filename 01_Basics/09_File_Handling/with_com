@@ -1,0 +1,4 @@
+with  open("01_Basics/09_File_Handling/example.txt", "r")as file:
+
+    content = file.read()
+    print(content)

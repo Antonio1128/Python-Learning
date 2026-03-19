@@ -1,0 +1,5 @@
+file = open("01_Basics/09_File_Handling/example.txt", "r")
+content = file.read()
+print(content)
+
+file.close()

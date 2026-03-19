@@ -1,0 +1,12 @@
+elev = {
+    "name": "Toni",
+    "age": 18,
+    "grade": 9.5
+}
+
+print(elev["name"])   # acces
+
+elev["grade"] = 10     # update
+
+for key, value in elev.items():  # iterate
+    print(key, ":", value   )

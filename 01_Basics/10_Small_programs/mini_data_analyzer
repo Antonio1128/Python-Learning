@@ -1,0 +1,22 @@
+with open("01_Basics/10_Small_programs/numbers.txt", "r") as file:
+    lines = file.readlines()
+
+numbers = []
+
+for line in lines:
+    if line.strip() != "":
+        numbers.append(int(line.strip()))
+
+if len(numbers) == 0:
+    print("No numbers found in file.")
+else:
+    total = sum(numbers)
+    average = total / len(numbers)
+    maximum = max(numbers)
+    minimum = min(numbers)
+
+    print("Numbers:", numbers)
+    print("Sum:", total)
+    print("Average:", average)
+    print("Max:", maximum)
+    print("Min:", minimum)

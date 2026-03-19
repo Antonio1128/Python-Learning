@@ -1,0 +1,18 @@
+numbers=[]
+
+n=int(input("how many numbers do you want to add? "))
+for i in range(n):
+    numbers.append(int(input("add number: ")))
+    
+
+summ=0 
+maximum = numbers[0]
+
+for i in range(len(numbers)):
+    summ=summ+numbers[i]
+    if numbers[i]>maximum:
+        maximum=numbers[i]
+
+print("Sum:", summ)
+print("Maximum:", maximum)
+

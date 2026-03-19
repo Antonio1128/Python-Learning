@@ -1,0 +1,6 @@
+file = open("01_Basics/09_File_Handling/example.txt", "r")
+
+for line in file:
+    print(line.strip())
+
+file.close()

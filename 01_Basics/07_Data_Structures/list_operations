@@ -1,0 +1,7 @@
+fructe = ["apple", "banana", "orange"]  # create list
+
+fructe.append("kiwi")      # add
+fructe.remove("banana")    # delete
+
+for fruct in fructe:       # iterate
+    print(fruct)

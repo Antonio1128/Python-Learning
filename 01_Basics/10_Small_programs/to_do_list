@@ -1,0 +1,7 @@
+task = input("Enter a task: ")
+
+with open("01_Basics/10_Small_programs/task.txt", "a") as file:
+    file.write(task + "\n")
+
+with open("01_Basics/10_Small_programs/task.txt", "r") as file:
+    print(file.read())

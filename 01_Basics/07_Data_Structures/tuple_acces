@@ -1,0 +1,4 @@
+coordonates = (10, 20)
+
+print("X:", coordonates[0])
+print("Y:", coordonates[1])

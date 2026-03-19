@@ -1,0 +1,5 @@
+file = open("01_Basics/09_File_Handling/example.txt", "w")
+
+file.write("Hello, this is a test!")
+
+file.close()

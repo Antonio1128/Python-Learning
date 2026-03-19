@@ -1,0 +1,5 @@
+file = open("01_Basics/10_Small_programs/file.txt", "r")
+content=file.read()
+print("Word count:", len(content.split()))
+print("character count:", len(content))
+file.close()

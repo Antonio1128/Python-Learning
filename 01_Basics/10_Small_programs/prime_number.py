@@ -1,4 +1,4 @@
-n = int(input("introduceti nr: "))
+n = int(input("add number: "))
 
 div = 0
 
@@ -7,6 +7,6 @@ for i in range(1, n + 1):
         div = div + 1
 
 if div == 2:
-    print("este prim")
+    print("prime")
 else:
-    print("nu este prim")
+    print("not prime")

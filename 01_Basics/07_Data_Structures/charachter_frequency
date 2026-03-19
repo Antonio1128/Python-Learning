@@ -1,0 +1,11 @@
+text = "ana has apples"
+
+freq = {}
+
+for litera in text:
+    if litera in freq:
+        freq[litera] += 1
+    else:
+        freq[litera] = 1
+
+print(freq)

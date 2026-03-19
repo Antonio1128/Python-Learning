@@ -1,0 +1,20 @@
+import math
+print(math.sqrt(16))  # Output: 4.0
+print(math.pi)       # Output: 3.141592653589793
+
+from math import sqrt, pi
+print(sqrt(25))  # Output: 5.0
+
+import math as m
+print(m.sqrt(9))  # Output: 3.0
+
+import my_utilies
+print(my_utilities.hello("Alice"))  # Output: Hello, Alice!
+print(my_utilities.add(5, 3))       # Output: 8
+print(my_utilities.divisors(12))    # Output: [1, 2, 3, 4, 6, 12]
+
+from my_utilies import hello, add
+print(hello("Bob"))  # Output: Hello, Bob! 
+
+import random
+print(random.randint(1, 10))  # Output: a random integer between 1 and 10
