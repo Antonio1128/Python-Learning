@@ -1,0 +1,26 @@
+class Book:
+    def __init__(self, title, pages):
+        self.title = title
+        self.pages = pages
+
+    def __str__(self):
+        return f"{self.title} - {self.pages} pages"
+
+    def __len__(self):
+        return self.pages
+
+    def __eq__(self, other):
+        return self.pages == other.pages
+
+
+def main():
+    b1 = Book("Python Basics", 200)
+    b2 = Book("Advanced Python", 2000)
+
+    print(b1)
+    print("Pages:", len(b1))
+    print("Same length:", b1 == b2)
+
+
+if __name__ == "__main__":
+    main()

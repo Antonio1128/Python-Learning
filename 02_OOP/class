@@ -1,0 +1,27 @@
+class Student:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    def display(self):
+        print(f"{self.name} has grade {self.grade}")
+
+    def passed(self):
+        return self.grade >= 5
+
+
+def main():
+    students = [
+        Student("Ana", 8),
+        Student("Ion", 4),
+        Student("Maria", 10)
+    ]
+
+    for s in students:
+        s.display()
+        print("Passed:", s.passed())
+        
+
+
+if __name__ == "__main__":
+    main()

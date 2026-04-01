@@ -1,0 +1,35 @@
+class Vehicle:
+    def __init__(self, speed):
+        self.speed = speed
+
+    def move(self):
+        print("Vehicle moves")
+
+    def describe(self):
+        print(f"Speed: {self.speed}")
+
+
+class Car(Vehicle):
+    def move(self):
+        print("Car drives")
+
+
+class Bike(Vehicle):
+    def move(self):
+        print("Bike pedals")
+
+
+def main():
+    car = Car(120)
+    bike = Bike(30)
+
+    car.move()
+    car.describe()
+
+    bike.move()
+    bike.describe()
+
+
+if __name__ == "__main__":
+    main()
+
