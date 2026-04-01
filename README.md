@@ -17,6 +17,12 @@ The content is organized in chapters, similar to a small course structure.
 09_File_Handling  
 10_Small_Programs  
 
+## 02_OOP
+class – introduction to classes and objects
+encapsulation – private attributes and controlled access
+inheritance – base and derived classes
+polymorphism – same method, different behavior
+magicmethods – special methods (__str__, __len__, __eq__)
 
 ## Purpose
 
